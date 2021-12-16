@@ -2,6 +2,10 @@ var shannon = document.getElementById("shannon");
 
 var changed = false;
 
+var guesses = [];
+
+var phrase = 'Little Shop of Horrors';
+
 function changeColor(item) {
 	console.log('clicked')
 	console.log(item.style.backgroundColor)
@@ -14,3 +18,13 @@ function changeColor(item) {
 	}
 	
 }
+
+function letterPressed(letter) {
+	console.log('LETTER:', letter);
+}
+
+// function that tells you whether the letter is in the phrase
+
+// function that tells you whether the letter was already guessed
+
+// function that tells you whether you still have guesses remaining
